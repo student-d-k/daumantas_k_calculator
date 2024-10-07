@@ -17,5 +17,10 @@ class Calculator:
         ...
 
     def calculate(self) -> float:
+
+
+        if self.symbol == "+":
+
+            return self.add()
         ...
- 
+ print("Hello World")
