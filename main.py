@@ -13,8 +13,8 @@ class Calculator:
     def div(self) -> float:
         ...
 
-    def mul(self) -> float:
-        ...
+    def mul(self,sk:float) -> float:
+        return self.number * sk
 
     def calculate(self) -> float:
         ...
